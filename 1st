@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush's Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 10px;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to Ayush's Webpage
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Hello, I'm Ayush!</h1>
+        <p>I created this webpage using knowledge from my class 10th IT computer book.</p>
+        <p>Exciting things are coming soon!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a student currently studying in class 8 at Concept School. One of my passions is editing, and I love creating visually appealing content. Whether it's graphic design, video editing, or other creative projects, I enjoy the process of bringing ideas to life.</p>
+        <p>Connect with me on Instagram: <a href="https://www.instagram.com/ig_ayushfx/" target="_blank" style="font-weight: bold; color: #3498db;">@ig_ayushfx</a></p>
+    </section>
+
+    <section id="contact">
+        <!-- Add your contact information here if needed -->
+    </section>
+
+    <footer>
+        <p>Credits to Ayush</p>
+    </footer>
+</body>
+</html>
